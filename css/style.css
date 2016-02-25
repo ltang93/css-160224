@@ -1,0 +1,11 @@
+.header h1{
+	font-size: 4em;
+	color: #b79f62;
+}
+.header ul{
+	list-style: none;
+}
+.header li{
+	float: left;
+	margin:10px;
+}
