@@ -1,11 +1,113 @@
+.header{
+	text-align: center;
+}
 .header h1{
 	font-size: 4em;
 	color: #b79f62;
 }
+.header nav{
+	width: 800px;
+	margin: 0 auto;
+}
 .header ul{
 	list-style: none;
+	font-size: 1.2em;
+	color: #777;
 }
 .header li{
 	float: left;
 	margin:10px;
+}
+.header input{
+	margin-top: 8px;
+	height: 20px;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	border: 1px solid #ccc;
+}
+.banner{
+	position: relative;
+	font-size: 0;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.bannertext{
+	position: absolute;
+	color: white;
+	left:10%;
+	width: 40%;
+	height: 100%;
+	top: 20%;
+	font-size: initial;
+}
+.bannertext h2{
+	font-size: 3em;
+}
+.bannertext h3{
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: lighter;
+	padding-bottom: 3%;
+}
+.bannertext button{
+	width: 17%;
+	height: 6%;
+	background-color: #d52f47;
+	border:0px;
+	color: white;
+}
+.welcome,.welcomebox,.welcometext{
+	vertical-align: top;
+}
+.welcome{
+	background-color: #eee;
+	padding: 50px 80px;
+	white-space:nowrap;
+}
+.welcometext{
+	width: 50%;
+	display: inline-block;
+	white-space: normal;
+	height: 448px;
+}
+.welcometext h2{
+	margin-top: 0;
+	font-size: 2em;
+}
+.welcometext h3{
+	font-size: 0.965em;
+	font-weight: lighter;
+	line-height: 1.8em;
+}
+.welcometext a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.welcomebox{
+	width:50%;
+	display: inline-block;
+	height: 448px;
+	text-align: center;
+}
+.information{
+	background: black;
+	margin: 0;
+	color: #d32543;
+	font-size: 1.3em;
+	height: 200px;
+}
+.information ul{
+	margin:0;
+	list-style: none;
+	width: 700px;
+	margin:0 auto;
+}
+.information ul li{
+	float: left;
+	margin:20px;
 }
